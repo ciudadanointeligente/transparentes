@@ -1,0 +1,124 @@
+body {
+    background: #F5F4E9;
+    font-size: 14px;
+    font-family: "Rokkitt", serif;
+}
+
+/*megafono*/
+header {
+    position: relative;
+    max-width: 100%;
+    padding-top: 100px;
+}
+
+header .img-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 400px!important;
+}
+
+header .img-2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 400px!important;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+header h1 img {
+    width: 400px;
+    margin: auto;
+}
+
+
+/*titulo*/
+
+.container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2A2922;
+    text-align: center;
+}
+
+.container p {
+    color: #2A2922;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container .cta {}
+
+.container .cta p {
+    color: #2A2922;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.container .cta a {
+    color: #2A2922;
+    text-align: center;
+    background: #FF4609;
+    border-color: #FF4609 !important;
+    transition: 0.5s all;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 12px 24px;
+}
+
+
+.container .cta a:hover {
+    background: #2A2922;
+    color: #F5F4E9;
+    border-color: #2A2922 !important;
+}
+
+/*Footer*/
+
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer img {
+    width: 100%;
+}
+
+
+@media (max-width: 1155px) {
+
+    /*megafono*/
+    header .img-1 {
+        width: 300px!important;
+    }
+
+    header .img-2 {
+        width: 300px!important;
+    }
+
+}
+
+
+@media (max-width: 788px) {
+
+    /*megafono*/
+    header .img-1 {
+        display: none;
+    }
+
+    header .img-2 {
+        display: none;
+    }
+
+    header h1 img {
+    width: 250px;
+}
+
+}
